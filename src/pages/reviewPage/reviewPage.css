@@ -1,0 +1,47 @@
+.gogo-review-container {
+    margin: 3rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-transform: capitalize;
+    color: #ff6347;
+}
+
+.gogo-all-review-box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.gogo-load-more-button {
+    display: inline-block;
+    padding: 12px 24px;
+    margin: 20px 0;
+    font-size: 16px;
+    font-weight: 600;
+    color: #ffffff;
+    background-color: #1d72b8;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .gogo-load-more-button:hover {
+    background-color: #155a8a;
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
+  }
+  
+  .gogo-load-more-button:active {
+    background-color: #134d6f;
+    transform: translateY(2px);
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .gogo-load-more-button:focus {
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(29, 114, 184, 0.5);
+  }
+  

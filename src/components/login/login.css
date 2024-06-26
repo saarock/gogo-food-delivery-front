@@ -1,0 +1,82 @@
+/* src/components/Login.css */
+
+.gogo-login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f2f2f2;
+  }
+  
+  .gogo-login-card {
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    width: 100%;
+  }
+  
+  .gogo-login-title {
+    margin-bottom: 20px;
+    text-align: center;
+    color: #333;
+    font-size: 24px;
+  }
+  
+  .gogo-login-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .gogo-login-form-group {
+    margin-bottom: 15px;
+  }
+  
+  .gogo-login-label {
+    display: block;
+    margin-bottom: 5px;
+    color: #666;
+  }
+  
+  .gogo-login-input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+    color: #333;
+  }
+  
+  .gogo-login-button {
+    width: 100%;
+    padding: 10px;
+    background-color: #5cb85c;
+    border: none;
+    border-radius: 4px;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .gogo-login-button:hover {
+    background-color: #4cae4c;
+  }
+  
+  .gogo-login-footer {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  
+  .gogo-login-link {
+    color: #5cb85c;
+    text-decoration: none;
+    font-size: 14px;
+  }
+  
+  .gogo-login-link:hover {
+    text-decoration: underline;
+  }
+  

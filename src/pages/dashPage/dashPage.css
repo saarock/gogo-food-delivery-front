@@ -1,0 +1,30 @@
+.gogo-dash-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+
+}
+.gogo-dash-container-child {
+    display: flex;
+}
+.gogo-dash-board-nav {
+    /* position: fixed; */
+    /* left: 2rem; */
+    /* top: 7rem; */
+}
+.gogo-dash-pages {
+    width: 100%;
+}
+.gogo-item-load-more {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.gogo-item-load-more {
+    position: sticky;
+    bottom: 0;
+}
+.no_more {
+    background-color: gray !important;
+}

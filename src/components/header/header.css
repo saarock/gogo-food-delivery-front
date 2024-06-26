@@ -1,0 +1,102 @@
+
+  
+  /* Nav bar styling */
+  .gogo-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    padding: 10px 20px;
+    color: #fff;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Logo styling */
+  .gogo-logo a {
+    font-size: 24px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  .gogo-logo a img {
+    height: 4rem;
+    scale: 200%;
+  }
+  
+  /* Nav links styling */
+  .gogo-nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: end;
+  }
+  
+  .gogo-nav-links a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    transition: color 0.3s;
+  }
+  
+  .gogo-nav-links a:hover {
+    color: #ff6347;
+  }
+  
+  /* Cart styling */
+  .gogo-cart {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .gogo-cart input {
+    margin-right: 2rem;
+    height: 2.2rem;
+    border-radius: 1rem;
+    background-color: #333;
+    /* outline: 2px solid white; */
+    border: none;
+    color: white;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px -50px 36px -28px inset;
+    padding: 0.3rem;
+  }
+
+  .gogo-cart input::placeholder {
+    color: white;
+  }
+
+  .gogo-cart input:active {
+    outline: 2px solid #ff6347;
+  }
+  .gogo-cart input:focus {
+    outline: 2px solid #ff6347;
+  }
+  .gogo-cart a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+  }
+  
+  .gogo-cart a:hover {
+    color: #ff6347;
+  }
+
+  
+  .gogo-logout button {
+    background-color: #f44336; /* Red background */
+    color: #fff; /* White text */
+    border: none; /* No border */
+    padding: 6px 6px; 
+    font-size: 1rem; /* Font size */
+    border-radius: 4px; /* Rounded corners */
+    cursor: pointer; /* Cursor style on hover */
+    transition: background-color 0.3s ease; /* Smooth background color transition */
+    text-decoration: none; /* Remove underline */
+    display: inline-block; /* Ensures the button is a block element */
+    text-align: center; /* Center-align text */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Box shadow for depth */
+    text-transform: uppercase; /* Uppercase text */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }

@@ -1,0 +1,64 @@
+.gogo-contact-page {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .gogo-contact-info {
+    flex: 1;
+    padding-right: 20px;
+  }
+  
+  .gogo-contact-info h2 {
+    margin-bottom: 15px;
+  }
+  
+  .gogo-contact-form-container {
+    flex: 1;
+    padding-left: 20px;
+  }
+  
+  .gogo-contact-form-container h3 {
+    margin-bottom: 15px;
+  }
+  
+  .gogo-contact-form {
+    width: 100%;
+    max-width: 400px;
+  }
+  
+  .gogo-form-group {
+    margin-bottom: 15px;
+  }
+  
+  .gogo-form-group label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .gogo-form-group input,
+  .gogo-form-group textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .gogo-submit-btn {
+    background-color: #ff6347;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .gogo-submit-btn:hover {
+    background-color: #e55b3c;
+  }
+  

@@ -1,0 +1,69 @@
+.gogo-about-page {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .gogo-about-section {
+    margin-bottom: 40px;
+  }
+  
+  .gogo-about-content {
+    flex: 1;
+    padding-right: 20px;
+  }
+  
+  .gogo-about-content h2 {
+    font-size: 2.5rem;
+    margin-bottom: 15px;
+    color: #333;
+  }
+  
+  .gogo-about-content p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    color: #666;
+  }
+  
+  .gogo-about-image {
+    flex: 1;
+    text-align: center;
+  }
+  
+  .gogo-about-image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .gogo-about-team {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .gogo-team-members {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .gogo-about-mission {
+    text-align: center;
+  }
+  
+  .gogo-about-achievements {
+    text-align: center;
+  }
+  
+  .gogo-about-achievements ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .gogo-about-achievements li {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+  }
+  

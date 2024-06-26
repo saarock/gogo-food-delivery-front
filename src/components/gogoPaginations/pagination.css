@@ -1,0 +1,42 @@
+.gogo-pagination-container {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+  }
+  
+  .gogo-pagination {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    gap: 10px;
+  }
+  
+  .gogo-page-item {
+    cursor: pointer;
+    padding: 10px 15px;
+    border: 1px solid #007bff;
+    border-radius: 5px;
+    color: #007bff;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  .gogo-page-item:hover {
+    background-color: #007bff;
+    color: #fff;
+  }
+  
+  .gogo-active {
+    background-color: #007bff;
+    color: #fff;
+  }
+  
+  .gogo-disabled {
+    cursor: not-allowed;
+    opacity: 0.5;
+  }
+  
+  .gogo-disabled:hover {
+    background-color: transparent;
+    color: #007bff;
+  }
+  

@@ -1,0 +1,47 @@
+/* CommingSoon.css */
+
+.gogo-coming-soon-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #1c1c1c;
+    color: #fff;
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  
+  .gogo-coming-soon-content {
+    max-width: 800px;
+    width: 100%;
+  }
+  
+  .gogo-coming-soon-title {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+  }
+  
+  .gogo-coming-soon-text {
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+  }
+  
+  .gogo-coming-soon-images {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+  }
+  
+  .gogo-coming-soon-image {
+    width: 30%;
+    height: auto;
+    border-radius: 8px;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .gogo-coming-soon-image:hover {
+    transform: scale(1.05);
+  }
+  

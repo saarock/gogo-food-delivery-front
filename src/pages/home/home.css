@@ -1,0 +1,32 @@
+.gogo-home-container {
+
+    display: flex;
+}
+
+.gogo-items-container {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 2rem;
+/* background-color: red; */
+    /* width: 76%; */
+}
+
+.gogo-item {
+    margin: 1rem;
+}
+.gogo-load-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.gogo-food-filter-navs {
+    /* height: 22rem;
+    position: fixed;
+    background-color: #333;
+    right: 1rem;
+    top: 8rem;
+    width: 13rem;
+    border-radius: 1rem;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px; */
+}

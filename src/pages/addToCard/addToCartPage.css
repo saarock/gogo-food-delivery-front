@@ -1,0 +1,131 @@
+.gogo-add-to-cart-page {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    position: relative;
+}
+
+.gogo-add-to-cart-page h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.gogo-cart-items {
+    margin-bottom: 20px;
+}
+
+.gogo-cart-item {
+    display: flex;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #fff;
+}
+
+.gogo-cart-item-image {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-right: 10px;
+}
+
+.gogo-cart-item-details {
+    flex: 1;
+}
+
+.gogo-cart-item-name {
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.gogo-cart-item-price {
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 5px;
+}
+
+.gogo-cart-item-quantity {
+    font-size: 14px;
+    color: #666;
+}
+
+.gogo-cart-summary {
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
+
+.gogo-cart-summary h3 {
+    margin-bottom: 15px;
+}
+
+.gogo-summary-subtotal {
+    margin-bottom: 15px;
+}
+
+.gogo-checkout-btn {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #ff6347;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.gogo-checkout-btn:hover {
+    background-color: #e55b3c;
+}
+
+.gogo-delivery-details-form {
+    position: fixed;
+    height: 100vh;
+    width: 100vw;
+    left: 0;
+    top: 0;
+    background-color: #05040446;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.gogo-card-delete button {
+    background-color: #f44336; /* Red background color */
+    color: #fff; /* White text color */
+    border: none; /* No border */
+    padding: 10px 20px; /* Padding inside the button */
+    font-size: 1rem; /* Font size */
+    border-radius: 4px; /* Rounded corners */
+    cursor: pointer; /* Cursor style on hover */
+    transition: background-color 0.3s ease; /* Smooth background color transition */
+
+}
+.gogo-card-delete button:hover {
+    background-color: #d32f2f; /* Darker red on hover */
+  }
+
+  .gogo-addto-cart-nav {
+    position: fixed;
+    left: 2rem;
+  }
+  .gogo-booked-item-qr {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: 999;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.856);
+  }

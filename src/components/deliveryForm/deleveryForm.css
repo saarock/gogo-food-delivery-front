@@ -1,0 +1,55 @@
+.gogo-static-delivery-form-container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .gogo-static-delivery-form-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .gogo-static-delivery-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .gogo-form-group {
+    margin-bottom: 15px;
+  }
+  
+  .gogo-form-group label {
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .gogo-form-group input {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .gogo-form-group small {
+    color: #888;
+    font-size: 12px;
+  }
+  
+  .gogo-submit-btn {
+    background-color: #ff6347;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .gogo-submit-btn:hover {
+    background-color: #e55b3c;
+  }
+  

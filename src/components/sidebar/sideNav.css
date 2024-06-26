@@ -1,0 +1,66 @@
+.gogo-side-nav {
+    width: 250px;
+    height: 100vh;
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    box-sizing: border-box;
+    position: sticky;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+ 
+  }
+  
+  .gogo-side-nav h3 {
+    margin-bottom: 10px;
+    font-size: 20px;
+  }
+  
+  .gogo-side-nav-section {
+    margin-bottom: 20px;
+  }
+  
+  .gogo-side-nav ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .gogo-side-nav li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    cursor: pointer;
+  }
+  
+  .gogo-side-nav li:hover {
+    color: #ff6347;
+  }
+  
+  .gogo-side-nav li svg {
+    margin-right: 8px;
+  }
+
+  .gogo-terms-and-conditions-btn {
+    display: inline-block;
+    background-color: rgba(255, 0, 0, 0.384);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.gogo-terms-and-conditions-btn:hover {
+    background-color: darkred;
+}
+
+.button-link {
+    color: inherit; /* Inherit text color from parent */
+    text-decoration: none; /* Remove underline from link */
+}

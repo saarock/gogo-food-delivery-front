@@ -1,0 +1,147 @@
+.gogo-product-card {
+  width: 100%;
+  max-width: 250px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+  transition: transform 0.3s ease;
+  background-color: #ffffff;
+  /* margin: 1rem; */
+}
+
+.gogo-product-card:hover {
+  transform: translateY(-5px);
+}
+
+.gogo-product-image {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+  border-bottom: 1px solid #ddd;
+}
+
+.gogo-choose-rest {
+  padding: 10px 16px;
+  background-color: #f8f9fa;
+  border-bottom: 1px solid #ddd;
+}
+
+.choose-rest-title {
+  font-size: 1rem;
+  margin-bottom: 8px;
+  color: #333;
+}
+
+.restaurant-select {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 0.875rem;
+  color: #666;
+  background-color: #fff;
+}
+
+.gogo-item-quantity {
+  padding: 10px 16px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-top: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+}
+
+.number {
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.increase,
+.decrease {
+  font-size: 1rem;
+  width: 25px;
+  height: 25px;
+  background-color: #f0f0f0;
+  border: none;
+  border-radius: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  font-weight: bold;
+}
+
+.increase:hover,
+.decrease:hover {
+  background-color: #e0e0e0;
+}
+
+.gogo-product-details {
+  padding: 10px 16px;
+}
+
+.gogo-product-name {
+  font-size: 1.1rem;
+  margin-bottom: 4px;
+  color: #333;
+}
+
+.gogo-product-price {
+  font-size: 0.9rem;
+  color: #666;
+  margin-bottom: 8px;
+}
+
+.gogo-add-to-cart-btn {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  background-color: #ff6347;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 0.7rem;
+  margin: 0.5rem;
+}
+
+.gogo-add-to-cart-btn:hover {
+  background-color: #e55b3c;
+}
+.gogo-add-to-cart-btn:active {
+  outline: 2px solid #e55b3c;
+}
+.gogo-item-quantity h3 {
+  color: #333;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.actual-price {
+  color: red;
+}
+.gogo-cart-buttons {
+  display: flex;
+
+}
+.gogo-book-now-btn {
+    display: block;
+  width: 100%;
+  padding: 10px;
+  background-color: #ff6347;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 0.7rem;
+  margin: 0.5rem;
+}
